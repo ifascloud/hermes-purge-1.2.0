@@ -1,0 +1,17 @@
+name: hermes-purge
+version: 1.2.0
+description: "Hermes 版「破甲」控制层（dsh-purge 设计移植）：把执行姿态以插件提示段注入系统提示，规则用纯 markdown 文件管理，带分层状态自检、快照备份与回滚。不修改宿主代码，/purge 一条命令开关。"
+author: Hermes community port / based on dsh-purge Community design
+kind: standalone
+license: MIT
+provides_commands:
+  - purge
+provides_hooks: []
+requires_hermes: ">=0.22.0"
+tags:
+  - prompt
+  - rules
+  - autonomy
+  - backup
+  - rollback
+  - purge
